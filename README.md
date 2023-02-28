@@ -1,4 +1,4 @@
-# BHMLAI-Application17_1
+# BHMLAI-Capstone
 
 The link to the notebooks:
 
