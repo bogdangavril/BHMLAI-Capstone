@@ -1,9 +1,9 @@
 # BHMLAI-Capstone
 
-The link to the notebooks:
+The link to the notebooks: https://github.com/bogdangavril/BHMLAI-Capstone.git
 
-Classification:
-Prediction:
+Classification: https://github.com/bogdangavril/BHMLAI-Capstone.git
+Prediction: https://github.com/bogdangavril/BHMLAI-Capstone.git
 
 Datasets in folder 'data'.
 
