@@ -85,4 +85,4 @@ The most important conclusions:
 * use the prediction model with the knowledge that it has a very low precision and can be used as an indicator and in conjunction with human input
 3. How to use this models in practice?
 * integrate the model in a practical prediction application with an easy to use GUI
-image.png
+![image1](<img width="430" alt="image" src="https://user-images.githubusercontent.com/115292382/224579393-dbb912f5-68ce-488e-8709-c25c80468269.png">)
