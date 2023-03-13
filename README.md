@@ -39,6 +39,7 @@ The dataset header:
 ![dataset header](/images/df_head.png)
 
 Here is the description of the dataset features: 
+
 ![dataset features](/images/df_feat.png)
 
 
