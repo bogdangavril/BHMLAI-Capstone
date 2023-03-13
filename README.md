@@ -68,7 +68,8 @@ This is the confusion matrix for the Decision Tree classifier using the test set
 And a more visual representation of the classification: 
 ![visual dtr](/images/cs_dtr_viz.png)
 
-This is the confusion matrix for the SVC classifier using the test set. Out of the 69 test samples the model classifies correctly 21 'Low' labels and 27 'High' labels and wrongly classifies 5 'Low and 16 'High' labels. 
+This is the confusion matrix for the SVC classifier using the test set. Out of the 69 test samples the model classifies correctly 21 'Low' labels and 27 'High' labels and wrongly classifies 5 'Low and 16 'High' labels.
+
 ![conf matrix dtr](/images/cs_svc_confm.png)
 
 And a more visual representation of the classification: 
