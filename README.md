@@ -208,7 +208,7 @@ Production boards take more time than the flex boards and platform boards
 2. What data can be ignored, or dropped from the analysis?
 - Ignore all the features which in practice are not available before the project is done
 3. What are the top features that influence the duration of a project?
-'scope','line','complexity','dbl','ver' have the highest importance
+- 'scope','line','complexity','dbl','ver' have the highest importance
 4. Is the model accurate enough? What is missing, how can I improve the data set and the analysis as next steps?
 - No, the model is not accurate at all. 
 - What is missing is much more data to train the models
