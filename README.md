@@ -37,6 +37,7 @@ The features include physical characteristics of the boards designed, plus a num
 Since the classification is needed before the design starts when only a part of the features are available some of the features from the dataset will be discarded.
 The dataset header:
 ![dataset header](/images/df_head.png)
+
 Here is the description of the dataset features: 
 ![dataset features](/images/df_feat.png)
 
@@ -68,6 +69,7 @@ And a more visual representation of the classification:
 
 This is the confusion matrix for the SVC classifier using the test set. Out of the 69 test samples the model classifies correctly 21 'Low' labels and 27 'High' labels and wrongly classifies 5 'Low and 16 'High' labels. 
 ![conf matrix dtr](/images/cs_svc_confm.png)
+
 And a more visual representation of the classification: 
 ![visual dtr](/images/cs_svc_viz.png)
 
@@ -75,10 +77,13 @@ Also here are useful findings related to the features that can be used as a gene
 
 # The complexity depends on the project version
 ![count version](/images/cs_cnt_ver.png)
+
 # The more components are on a board, the more complex the design is
 ![count comp](/images/cs_cnt_comp.png)
+
 # The complexity increases with the number of layers
 ![count layers](/images/ccs_cnt_ly.png)
+
 # The type of board influences the complexity
 ![count type](/images/cs_cnt_typ.png)
 
@@ -135,8 +140,10 @@ The features include physical characteristics of the boards designed, plus a num
 Since the classification is needed before the design starts when only a part of the features are available some of the features from the dataset will be discarded.
 The dataset header:
 ![dataset header](/images/df_head.png)
+
 Here is the description of the dataset features: 
 ![dataset features](/images/df_feat.png)
+
 
 #### Methodology
 I will use the following steps in my analysis:
@@ -174,8 +181,10 @@ Also here are useful findings related to how the features are related to the med
 
 1. Board version has influence over the project duration. Prototype designs take the longest
 ![version](/images/p_version.png)
+
 2. Projects take longer when there are new designs or major modifications of previous versions
 ![scope](/images/p_scope.png)
+
 3. Production boards take more time than the flex boards and platform boards
 ![type](/images/p_type.png)
 
