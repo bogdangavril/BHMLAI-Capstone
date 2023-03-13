@@ -62,6 +62,7 @@ The best models are DecisionTree and SVC, with tuned parameters.
 
 This is the confusion matrix for the Decision Tree classifier using the test set. Out of the 69 test samples the model classifies correctly 15 'Low' labels and 38 'High' labels and wrongly classifies 11 'Low and 5 'High' labels. 
 ![conf matrix dtr](/images/cs_dtr_confm.png)
+
 And a more visual representation of the classification: 
 ![visual dtr](/images/cs_dtr_viz.png)
 
