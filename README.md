@@ -13,7 +13,7 @@ The analysis also found that the data fails to capture the changes that happen d
 
 The brief will include details and also recommendations for the next steps needed to improve the models and the accuracy. 
 
-### Classification
+## Classification
 
 #### Rationale
 Usually a project complexity is estimated by the engineers or the managers who are directly involved in the design, based on objective and subjective factors such as personal experience. A tool which uses only projects' features and eliminates the subjective factors, and which consistently provides good classifications, would considerably improve the resource planning and projects' assignment. The tool can also learn along and the data can improve as a result of the feature importance results.
@@ -61,7 +61,8 @@ Nevertheless, the classification model can be used as an indicator or an estimat
 AUC and Precision have been used as model performance criteria. All models performed better than the baseline which has a score of 0.5. 
 The best models are DecisionTree and SVC, with tuned parameters.
 
-This is the confusion matrix for the Decision Tree classifier using the test set. Out of the 69 test samples the model classifies correctly 15 'Low' labels and 38 'High' labels and wrongly classifies 11 'Low and 5 'High' labels. 
+This is the confusion matrix for the Decision Tree classifier using the test set. Out of the 69 test samples the model classifies correctly 15 'Low' labels and 38 'High' labels and wrongly classifies 11 'Low and 5 'High' labels.
+
 ![conf matrix dtr](/images/cs_dtr_confm.png)
 
 And a more visual representation of the classification: 
@@ -120,7 +121,7 @@ How to use this models in practice?
 
 
 
-### Prediction
+## Prediction
 
 #### Rationale
 Usually the design time is estimated by the engineers or managers who are directly involved in the design, based on objective and subjective factors such as personal experience. A tool which uses only projects' features and eliminates the subjective factors, and which consistently provides good estimations, would considerably improve the resource planning and projects' scheduling. Plus the tool can be used by anybody, such as non-technical teams, project managers, etc. The tool can also learn along and the data can improve as a result of the feature importance results.
