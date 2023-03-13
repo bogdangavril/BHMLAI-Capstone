@@ -22,7 +22,9 @@ The classification of a project based on physical and descriptive characteristic
 ### Research Question
 The main question here is:
 1. Can I use the available data to build a classifier tool that can help predicting the complexity of a project?
+2. 
 There are a few additional questions that this analysis can answer.
+
 2. What data can be ignored, or dropped from the analysis?
 3. What are the top features that influence the classification?
 4. Is the model accurate enough? What is missing, how can I improve the data set and the analysis as next steps?
