@@ -119,7 +119,7 @@ How to use this models in practice?
 
 #### Outline of project
 
-- [Link to notebook 1]()
+- [Link to notebook 1](Capstone-BG-Classification.ipynb)
 
 
 
