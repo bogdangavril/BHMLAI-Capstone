@@ -131,6 +131,7 @@ Usually the design time is estimated by the engineers or managers who are direct
 ### Research Question
 The main question here is: 
 1. Can I use the available data to build a classifier tool that can help predicting the complexity of a project?
+
 There are a few additional questions that this analysis can answer.
 2. What data can be ignored, or dropped from the analysis?
 3. What are the top features that influence the prediction?
