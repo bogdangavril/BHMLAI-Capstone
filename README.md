@@ -75,16 +75,16 @@ And a more visual representation of the classification:
 
 Also here are useful findings related to the features that can be used as a general guide for project managers:
 
-# The complexity depends on the project version
+The complexity depends on the project version
 ![count version](/images/cs_cnt_ver.png)
 
-# The more components are on a board, the more complex the design is
+The more components are on a board, the more complex the design is
 ![count comp](/images/cs_cnt_comp.png)
 
-# The complexity increases with the number of layers
-![count layers](/images/ccs_cnt_ly.png)
+The complexity increases with the number of layers
+![count layers](/images/cs_cnt_ly.png)
 
-# The type of board influences the complexity
+The type of board influences the complexity
 ![count type](/images/cs_cnt_typ.png)
 
 #### Answering the research question
@@ -179,13 +179,13 @@ The final model visualization and the R2 plot:
 
 Also here are useful findings related to how the features are related to the median project duration:
 
-1. Board version has influence over the project duration. Prototype designs take the longest
+Board version has influence over the project duration. Prototype designs take the longest
 ![version](/images/p_version.png)
 
-2. Projects take longer when there are new designs or major modifications of previous versions
+Projects take longer when there are new designs or major modifications of previous versions
 ![scope](/images/p_scope.png)
 
-3. Production boards take more time than the flex boards and platform boards
+Production boards take more time than the flex boards and platform boards
 ![type](/images/p_type.png)
 
 #### Answering the research question
