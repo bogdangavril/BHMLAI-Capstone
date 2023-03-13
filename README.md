@@ -145,7 +145,7 @@ There are a few additional questions that this analysis can answer.
 
 ### Data Sources
 I will use PCB design projects data collected from various places and periods of time. 
-The dataset contains 345 entries and 19 features. The dataset is complete with no missing values and has both numerical and categorical data.
+The dataset contains 345 entries and 18 features. The dataset is complete with no missing values and has both numerical and categorical data.
 The features include physical characteristics of the boards designed, plus a number of descriptive characteristics.
 Since the classification is needed before the design starts when only a part of the features are available some of the features from the dataset will be discarded.
 The dataset header:
