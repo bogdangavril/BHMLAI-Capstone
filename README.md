@@ -228,7 +228,7 @@ How to use this models in practice?
 
 
 
-##### Contact and Further Information
-
+#### Contact and Further Information
+bgavril@me.com
 
 
