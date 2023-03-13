@@ -2,7 +2,7 @@ Capstone project
 
 ** Author: Bogdan Gavril **
 
-#### Executive summary
+### Executive summary
 
 In the world of hardware design where schedules are extremely tight it is very important to determine the complexity of a project and to estimate the engineering time required for completion. In particular, PCB Design projects have a wide range of complexity and the design time varies significantly from project to project. Determining the complexity of a project and the design time have a huge impact on scheduling and on utilizing the engineering resources. Usually these determinations are made by the engineers themselves or by their managers, but many times there is a significant subjective component which makes these estimations to vary from person to person. 
 This project proposes the use of Machine Learning methods to make these predictions using existing project data. The outcome consists of Machine Learning models that can be used to predict the design duration and to classify the project as High or Low complexity. 
@@ -15,11 +15,11 @@ The brief will include details and also recommendations for the next steps neede
 
 ## Classification
 
-#### Rationale
+### Rationale
 Usually a project complexity is estimated by the engineers or the managers who are directly involved in the design, based on objective and subjective factors such as personal experience. A tool which uses only projects' features and eliminates the subjective factors, and which consistently provides good classifications, would considerably improve the resource planning and projects' assignment. The tool can also learn along and the data can improve as a result of the feature importance results.
 The classification of a project based on physical and descriptive characteristics of the project can improve the management understanding of the tasks and can indicate the type of resources needed to be used. For example a low complexity project can be designed by a more junior engineer, while the very complex ones require some more experience. A classification tool can help team leaders to assign projects more accurately.
 
-#### Research Question
+### Research Question
 The main question here is:
 1. Can I use the available data to build a classifier tool that can help predicting the complexity of a project?
 There are a few additional questions that this analysis can answer.
@@ -30,7 +30,7 @@ There are a few additional questions that this analysis can answer.
 The overall objective is to find the best classification model that can tell whether a project is of high or low complexity. 
 
 
-#### Data Sources
+### Data Sources
 I will use PCB design projects data collected from various places and periods of time. 
 The dataset contains 345 entries and 19 features. The dataset is complete with no missing values and has both numerical and categorical data.
 The features include physical characteristics of the boards designed, plus a number of descriptive characteristics.
@@ -43,7 +43,7 @@ Here is the description of the dataset features:
 ![dataset features](/images/df_feat.png)
 
 
-#### Methodology
+### Methodology
 I will use the following steps in my analysis:
 1. Data understanding
 2. Engineer the features
@@ -53,7 +53,7 @@ I will use the following steps in my analysis:
 6. Tune the models using the best parameters
 7. Choose the best model
 
-#### Results
+### Results
 The results were surprising at first, but diving deeper into the problem, this is what I determined. 
 Even if the labels in this dataset are reasonable balanced, the models can classify with a somewhat limited precision and with room for improvements. 
 The dataset does not have too many entries which limits the training of the models. Also, the determination of the complexity as captured in the dataset was definitely biased, being based on estimation made by engineers or managers, based on subjective factors.
@@ -90,7 +90,7 @@ The complexity increases with the number of layers
 The type of board influences the complexity
 ![count type](/images/cs_cnt_typ.png)
 
-#### Answering the research question
+### Answering the research question
 
 Can I use the available data to build a classifier tool that can help predicting the complexity of a project?
 - Yes, the data is reasonable but fails to capture the changes during a project which can affect the complexity of a design
@@ -104,7 +104,7 @@ Is the model accurate enough? What is missing, how can I improve the data set an
 - with a precision of 0.76 and AUC of 0.77 the model using Decision Tree is reasonable, but there is room for improvement. The first thing missing is more data and some of the next steps are shown below.
 Overall, through this work, I can provide a reasonable model for classifying projects based on a given set of known characteristics.
 
-#### Next steps
+### Next steps
 What can be done to improve the models:
 - identify and include additional features which can be collected before the project starts
 - collect much more data
@@ -117,7 +117,7 @@ What to advise the organization?
 How to use this models in practice?
 - integrate the models in a practical classification application with an easy to use GUI
 
-#### Outline of project
+### Outline of project
 
 - [Link to notebook 1](Capstone-BG-Classification.ipynb)
 
@@ -125,10 +125,10 @@ How to use this models in practice?
 
 ## Prediction
 
-#### Rationale
+### Rationale
 Usually the design time is estimated by the engineers or managers who are directly involved in the design, based on objective and subjective factors such as personal experience. A tool which uses only projects' features and eliminates the subjective factors, and which consistently provides good estimations, would considerably improve the resource planning and projects' scheduling. Plus the tool can be used by anybody, such as non-technical teams, project managers, etc. The tool can also learn along and the data can improve as a result of the feature importance results.
 
-#### Research Question
+### Research Question
 The main question here is: 
 1. Can I use the available data to build a classifier tool that can help predicting the complexity of a project?
 There are a few additional questions that this analysis can answer.
@@ -136,7 +136,7 @@ There are a few additional questions that this analysis can answer.
 3. What are the top features that influence the prediction?
 4. Is the model accurate enough? What is missing, how can I improve the data set and the analysis as next steps?
 
-#### Data Sources
+### Data Sources
 I will use PCB design projects data collected from various places and periods of time. 
 The dataset contains 345 entries and 19 features. The dataset is complete with no missing values and has both numerical and categorical data.
 The features include physical characteristics of the boards designed, plus a number of descriptive characteristics.
@@ -149,7 +149,7 @@ Here is the description of the dataset features:
 ![dataset features](/images/df_feat.png)
 
 
-#### Methodology
+### Methodology
 I will use the following steps in my analysis:
 1. Data understanding
 2. Engineer the features
@@ -160,7 +160,7 @@ I will use the following steps in my analysis:
 7. Extract the feature importance 
 7. Choose the best model and use a dataset reduced to the most important features
 
-#### Results
+### Results
 1. The models can predict, but with very low score, even if the MAE is better than the baseline
 2. The dataset does not have too many entries which limits the training of the models.
 3. Much more data is needed to allow for a good training of the models
@@ -194,7 +194,7 @@ Projects take longer when there are new designs or major modifications of previo
 Production boards take more time than the flex boards and platform boards
 ![type](/images/p_type.png)
 
-#### Answering the research question
+### Answering the research question
 
 1. Can I use the available data to build a design duration prediction tool that can help the management to plan the schedules better?
 - Yes, if the accuracy is not a requirement and the results can be used as indicators based on the initial project characteristics
@@ -207,7 +207,7 @@ Production boards take more time than the flex boards and platform boards
 - What is missing is much more data to train the models
 - I must find a way to capture the missing 'change' and 'subjective' features which directly affect the duration. 'change' should capture a numeric value which represents the amount or percentage of the changes happening along the design. 'subjective' should capture factors such as the teams, the time of the year, vacations or team changes, changes in priorities, etc.
 
-#### Next steps
+### Next steps
 What can be done to improve the models:
 - identify and include additional features which can be collected before the project starts
 - collect much more data
