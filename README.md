@@ -22,7 +22,7 @@ The classification of a project based on physical and descriptive characteristic
 ### Research Question
 The main question here is:
 1. Can I use the available data to build a classifier tool that can help predicting the complexity of a project?
-2. 
+
 There are a few additional questions that this analysis can answer.
 
 2. What data can be ignored, or dropped from the analysis?
@@ -96,15 +96,18 @@ The type of board influences the complexity
 
 Can I use the available data to build a classifier tool that can help predicting the complexity of a project?
 - Yes, the data is reasonable but fails to capture the changes during a project which can affect the complexity of a design
+
 What data can be ignored, or dropped from the analysis?
 - Ignore all the features which in practice are not available before the project is finalized
-Do I need to clean up the data and how do I prepare the data?
-- Data was clean, preparation included dropping unused columns and encode the data
+
 What are the top features that influence the classification?
 - 'comp', 'scope', 'type and 'line' have higher importance than others
+
 Is the model accurate enough? What is missing, how can I improve the data set and the analysis as next steps?
-- with a precision of 0.76 and AUC of 0.77 the model using Decision Tree is reasonable, but there is room for improvement. The first thing missing is more data and some of the next steps are shown below.
-Overall, through this work, I can provide a reasonable model for classifying projects based on a given set of known characteristics.
+
+- with a precision of 0.76 and AUC of 0.77 the model using Decision Tree is reasonable, but there is room for improvement 
+- The first thing missing is more data and some of the next steps are shown below
+- Overall, through this work, I can provide a reasonable model for classifying projects based on a given set of known characteristics
 
 ### Next steps
 What can be done to improve the models:
