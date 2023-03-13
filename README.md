@@ -145,6 +145,7 @@ The dataset header:
 ![dataset header](/images/df_head.png)
 
 Here is the description of the dataset features: 
+
 ![dataset features](/images/df_feat.png)
 
 
@@ -178,6 +179,7 @@ This is a visualization of the predictions of all the grid models. It shows the 
 
 The final model visualization and the R2 plot:
 ![visual final](/images/p_viz_final.png)
+
 ![R2](/images/p_R2.png)
 
 Also here are useful findings related to how the features are related to the median project duration:
