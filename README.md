@@ -24,7 +24,7 @@ Important observation
 The classification is needed and happens before the design starts when only a part of the features are available. Thus, some of the features will be discarded.
 
 Conclusions
-Even if the labels in this dataset are reasonable blanced, the models can classify with a limited precision and with room for improvement
+Even if the labels in this dataset are reasonable balanced, the models can classify with a limited precision and with room for improvement
 The dataset does not have too many entries which limits the training of the models. Also, the determination of the complexity as captured in the dataset was definitely biased, being based on estimation made by engineers or managers, based on subjective factors.
 More data collected, plus a classifications made based on project characteristics, will improve the dataset in the future, giving a better training to the models.
 The dataset and the models cannot capture the unexpected factors which affect the difficulty of a design along the way. A design can start as low complexity based on the initial and change at some point to a highly complex one, in which case the user may update the label, even if the features say otherwise, thus biasing the data.
