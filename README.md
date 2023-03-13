@@ -12,7 +12,7 @@ Data understanding: The dataset represents PCB design projects data collected fr
 The dataset contains 345 entries and 19 features. The dataset is complete with no missing values and has both numerical and categorical data.
 The features include physical characteristics of the boards designed, plus a number of descriptive characteristics.
 
-Classification
+### Classification
 
 Business understanding:
 
