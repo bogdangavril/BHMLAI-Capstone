@@ -172,6 +172,7 @@ I will use the following steps in my analysis:
 9. The features which influence the design duration are: 'scope','line','complexity','dbl','ver'
 
 This is a comparison table of the models and grid search:
+
 ![comparison](/images/p_comp_tbl.png)
 
 This is a visualization of the predictions of all the grid models. It shows the actual test data versus the predictions on 36 samples from the dataset. 
@@ -180,7 +181,7 @@ This is a visualization of the predictions of all the grid models. It shows the 
 The final model visualization and the R2 plot:
 ![visual final](/images/p_viz_final.png)
 
-![R2](/images/p_R2.png)
+![R2](/images/p_r2.png)
 
 Also here are useful findings related to how the features are related to the median project duration:
 
