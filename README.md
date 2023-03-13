@@ -224,7 +224,7 @@ How to use this models in practice?
 #### Outline of project
 
 
-- [Link to notebook 2]()
+- [Link to notebook 2](Capstone-BG.ipynb)
 
 
 
