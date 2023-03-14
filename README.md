@@ -149,16 +149,19 @@ The type of board influences the complexity
 - Overall, through this work, I can provide a reasonable model for classifying projects based on a given set of known characteristics
 
 ### Next steps
+
 What can be done to improve the models:
 - Identify and include additional features which can be collected before the project starts
 - Collect much more data
 - Explore all the available hyperparameters for each model and use larger ranges for the parameters values
 - Explore other ways to encode the data
 - Use even fewer features, limit for example to 'comp', 'scope' and 'type' and explore the results
+
 What to advise the organization?
 - Collect more data, historical or as becomes available and reach out to similar organizations for data
 - Collect new data with the purpose of improving the Machine Learning prediction models. Use the new data to retrain the model and evaluate the performance
 - Use the classification model in conjunction with human input
+
 How to use this models in practice?
 - Integrate the models in a practical classification application with an easy to use GUI
 
@@ -297,16 +300,19 @@ Production boards take more time than the flex boards and platform boards
 - I must find a way to capture the missing 'change' and 'subjective' features which directly affect the duration. 'change' should capture a numeric value which represents the amount or percentage of the changes happening along the design. 'subjective' should capture factors such as the teams, the time of the year, vacations or team changes, changes in priorities, etc.
 
 ### Next steps
+
 What can be done to improve the models:
 - Identify and include additional features which can be collected before the project starts
 - Collect much more data
 - Explore all the available hyperparameters for each model and use larger ranges for the parameters values to be used in the Grid Search
 - Explore other ways to engineer the data
 - Use even fewer features and explore the results
+
 What to advise the organization?
 - Collect more data, historical or as becomes available and reach out to similar organizations for data
 - Collect new data with the purpose of improving the Machine Learning prediction models. Use the new data to retrain the model and evaluate the performance
 - Use the prediction model with the knowledge that it has a very low precision and can be used as an indicator and in conjunction with human input
+
 How to use this models in practice?
 - Integrate the model in a practical prediction application with an easy to use GUI
 
