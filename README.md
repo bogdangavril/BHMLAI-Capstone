@@ -253,7 +253,7 @@ This is a visualization of the predictions of all the grid models. It shows the 
 
 2. The most important features extracted using feature importance are 'scope','line','complexity','dbl','ver'
 
-visual all](/images/p_feat_imp.png)
+![feature](/images/p_feat_imp.png)
 
 3. The final model TransformedTargetRegressor with regressor RandomForestRegressor, with tuned parameters, has been trained on a dataset reduced to the most important features from above.
 - low accuracy score of 0.33
