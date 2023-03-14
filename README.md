@@ -143,7 +143,8 @@ The type of board influences the complexity
 - 'comp', 'scope', 'type', 'line', 'dbl' and 'category' have higher importance than others
 
 4. Is the model accurate enough? What is missing, how can I improve the data set and the analysis as next steps?
-- with a precision of 0.76 and AUC of 0.77 the model using Decision Tree is good, but there is room for improvement 
+- With an accuracy of 0.76 and AUC of 0.76 the model using Decision Tree Classifier is good, but there is room for improvement 
+- Same, with an accuracy of 0.69 and AUC of 0.77 the model using Support Vector Classifier is good, but there is room for improvement
 - The first thing missing is more data and some of the next steps are shown below
 - Overall, through this work, I can provide a reasonable model for classifying projects based on a given set of known characteristics
 
