@@ -176,7 +176,7 @@ How to use this models in practice?
 
 ### Outline of project
 
-- [Link to classification notebook](Capstone-BG-Classification.ipynb)
+- [Link to notebook 1](Capstone-BG-Classification.ipynb)
 
 
 
@@ -332,7 +332,7 @@ How to use this models in practice?
 #### Outline of project
 
 
-- [Link to prediction notebook](Capstone-BG.ipynb)
+- [Link to notebook 2](Capstone-BG.ipynb)
 
 
 
