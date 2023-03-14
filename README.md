@@ -256,6 +256,9 @@ This is a visualization of the predictions of all the grid models. It shows the 
 ![feature](/images/p_feat_imp.png)
 
 3. The final model TransformedTargetRegressor with regressor RandomForestRegressor, with tuned parameters, has been trained on a dataset reduced to the most important features from above.
+
+![reduced](/images/p_reduced.png)
+
 - low accuracy score of 0.33
 - Median Absolute Error of 12.07 on the test set which is much better better than the baseline which is 23.52
 
