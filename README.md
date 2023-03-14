@@ -51,19 +51,19 @@ Here is the description of the dataset features:
 I am using the following steps in my analysis:
 
 1. Data understanding
-- analyzing the data and observe the nature of the features, such as numerical or categorical, the relation between the various features, the missing values; this step also includes observing the outliers and the quality of the data in general
+- analyze the data and observe the nature of the features, such as numerical or categorical, the relation between the various features, the missing values; this step also includes observing the outliers and the quality of the data in general
 
 2. Engineer the features
 - involves imputing missing values, scaling features, encoding categorical variables, removing outliers, etc.
 - encoding is done using One Hot Encoder for categorical features and Standard Scaler for the numerical features
  
 3. Prepare the data for use in the models
-- involves creating the train and the test set by splitting the dataset; the models are trained on the train set and used to make predictions on the test set
+- involves creating the train and the test set by splitting the dataset; the models are trained on the train set and then used to make predictions on the test set in order to evaluate the models using various metrics
 4. Create and train several classification models using the train set
 - K-Nearest Neighbors, Logistic Regression, Decision Trees, and Support Vector Classification
 - K-Nearest Neighbors is a data classification method for estimating the likelihood that a data point will become a member of one group or another based on what group the data points nearest to it belong
 - Logistic Regression is a statistical model that uses a logistic function to model a binary-dependent variable
-- Decision Tree Classifier is a supervised learning algorithm. In this algorithm, data are continuously split into smaller parts until it reaches its class.
+- Decision Tree Classifier is a Supervised Machine Learning Algorithm that uses a set of rules to make decisions, similarly to how humans make decisions, and split the feature space. The goal is to continue to splitting the feature space, and applying rules, until there are no more rules to apply or no data points left.
 - Support Vector Classification (SVC or SVM from Support Vector Machine) is a supervised machine learning model that uses classification algorithms for two-group classification problems. SVC works by mapping data points to a high-dimensional space and then finding the optimal hyperplane that divides the data into two classes
 
 5. Evaluate the models
@@ -219,7 +219,7 @@ I am using the following steps in my analysis:
 - encoding is done using One Hot Encoder and Binary Encoder for categorical features and Standard Scaler for the numerical features
  
 3. Prepare the data for use in the models
-- involves creating the train and the test set by splitting the dataset; the models are trained on the train set and then used to make predictions using the test set
+- involves creating the train and the test set by splitting the dataset; the models are trained on the train set and then used to make predictions using the test set in order to evaluate the models using various metrics
 
 4. Create and train several regression models using the train set
 - Linear Regression, Ridge, Lasso, Transformed Target Regressor with Ridge, Transformed Target Regressor with Random Forest Regressor, Transformed Target Regressor with Lasso
