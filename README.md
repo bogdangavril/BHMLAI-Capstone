@@ -63,7 +63,7 @@ I am using the following steps in my analysis:
 - K-Nearest Neighbors, Logistic Regression, Decision Trees, and Support Vector Classification
 - K-Nearest Neighbors is a data classification method for estimating the likelihood that a data point will become a member of one group or another based on what group the data points nearest to it belong
 - Logistic Regression is a statistical model that uses a logistic function to model a binary-dependent variable
-- Decision Tree Classifier is a Supervised Machine Learning Algorithm that uses a set of rules to make decisions, similarly to how humans make decisions, and split the feature space. The goal is to continue to splitting the feature space, and applying rules, until there are no more rules to apply or no data points left.
+- Decision Tree Classifier is a supervised machine learning algorithm that uses a set of rules to make decisions, similarly to how humans make decisions, and split the feature space. The goal is to continue to splitting the feature space, and applying rules, until there are no more rules to apply or no data points left.
 - Support Vector Classification (SVC or SVM from Support Vector Machine) is a supervised machine learning model that uses classification algorithms for two-group classification problems. SVC works by mapping data points to a high-dimensional space and then finding the optimal hyperplane that divides the data into two classes
 
 5. Evaluate the models
