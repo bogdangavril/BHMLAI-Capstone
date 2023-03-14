@@ -83,7 +83,7 @@ I am using the following steps in my analysis:
 1. The best two models are:
 #### DecisionTreeClassifier and SVC, with tuned parameters.
 
-#### Decision Tree Classifier, score = 0.77 and AUC = 0.77. 
+#### Decision Tree Classifier, score = 0.76 and AUC = 0.77. 
 Here are the confusion matrix and the ROC curve. Out of the 69 test samples the model classifies correctly 15 'Low' labels and 38 'High' labels and wrongly classifies 11 'Low and 5 'High' labels.
 
 ![conf matrix dtr](/images/cs_conf_roc_dtr.png)
