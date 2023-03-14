@@ -101,7 +101,7 @@ And this another visualization of the predictions versus the real test data:
 
 ![visual dtr](/images/cs_svc_viz.png)
 
-5. Feature importance plot shows that
+2. Feature importance plot shows that
 - 'comp', 'scope', 'line' and 'type' have the largest influence on the Decision Tree classifier.
 
 ![visual dtr](/images/cs_feat_dtr.png)
@@ -109,11 +109,15 @@ And this another visualization of the predictions versus the real test data:
 - 'dbl', 'line', 'type' and 'category' have the largest influence over the Support Vector Classifier.
 
 ![visual dtr](/images/cs_feat_svc.png)
+
+3. This is a comparison table of the accuracy of the tuned models:
+
+![comp_tbl_cs](/images/cs_comp_tbl.png)
  
-2. The labels in this dataset are reasonable balanced and the models can classify with reasonable accuracy. 
-3. The dataset does not have too many entries which limits the training of the models. Also, the determination of the complexity as captured in the dataset was definitely biased, being based on estimation made by engineers or managers, based on subjective factors.
-4. The dataset and the models cannot capture the unexpected factors which affect the difficulty of a design along the way. A design can start as low complexity based on the initial and change at some point to a highly complex one, in which case the user may update the label, even if the features say otherwise, thus biasing the data. The data I am using fails to capture these variations. Nevertheless, the classification model can be used as a good indicator or a good estimation, useful for the business purpose of assigning resources.
-6. Here are other useful findings related to the features that can be used as a general guide for project managers:
+4. The labels in this dataset are reasonable balanced and the models can classify with reasonable accuracy. 
+5. The dataset does not have too many entries which limits the training of the models. Also, the determination of the complexity as captured in the dataset was definitely biased, being based on estimation made by engineers or managers, based on subjective factors.
+6. The dataset and the models cannot capture the unexpected factors which affect the difficulty of a design along the way. A design can start as low complexity based on the initial and change at some point to a highly complex one, in which case the user may update the label, even if the features say otherwise, thus biasing the data. The data I am using fails to capture these variations. Nevertheless, the classification model can be used as a good indicator or a good estimation, useful for the business purpose of assigning resources.
+7. Here are other useful findings related to the features that can be used as a general guide for project managers:
 
 The complexity depends on the project version
 
