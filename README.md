@@ -1,6 +1,10 @@
 # Capstone project
 
-** Author: Bogdan Gavril **
+Author: Bogdan Gavril
+bgavril@me.com
+
+[Link to notebook 1](Capstone-BG.ipynb)
+[Link to notebook 2](Capstone-BG-Classification.ipynb)
 
 ## Executive summary
 
@@ -172,7 +176,7 @@ How to use this models in practice?
 
 ### Outline of project
 
-- [Link to notebook 1](Capstone-BG-Classification.ipynb)
+- [Link to classification notebook](Capstone-BG-Classification.ipynb)
 
 
 
@@ -328,7 +332,7 @@ How to use this models in practice?
 #### Outline of project
 
 
-- [Link to notebook 2](Capstone-BG.ipynb)
+- [Link to prediction notebook](Capstone-BG.ipynb)
 
 
 
