@@ -2,9 +2,9 @@
 
 Author: Bogdan Gavril   bgavril@me.com
 
-[Link to notebook 2](Capstone-BG-Classification.ipynb)
+[Link to notebook 1](Capstone-BG-Classification.ipynb)
 
-[Link to notebook 1](Capstone-BG.ipynb)
+[Link to notebook 2](Capstone-BG.ipynb)
 
 ## Executive summary
 
