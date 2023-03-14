@@ -29,7 +29,7 @@ There are a few additional questions that this analysis can answer.
 3. What are the top features that influence the classification?
 4. Is the model accurate enough? What is missing, how can I improve the data set and the analysis as next steps?
 
-#### The overall objective is to find the best classification model that can tell whether a project is of high or low complexity. 
+##### The overall objective is to find the best classification model that can predict whether a project is of high or low complexity. 
 
 
 ### Data Sources
@@ -186,7 +186,7 @@ There are a few additional questions that this analysis can answer.
 3. What are the top features that influence the prediction?
 4. Is the model accurate enough? What is missing, how can I improve the data set and the analysis as next steps?
 
-#### The overall objective is to find the best prediction model that can tell the duration of a new project.
+##### The overall objective is to find the best prediction model that can predict the duration of a new project.
 
 ### Data Sources
 I will use PCB design projects data collected from various places and periods of time. 
