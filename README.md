@@ -1,6 +1,8 @@
 # Capstone project
 
-Author: Bogdan Gavril ** bgavril@me.com
+Author: Bogdan Gavril
+
+bgavril@me.com
 
 
 [Link to notebook 1](Capstone-BG.ipynb)
