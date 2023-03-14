@@ -63,7 +63,7 @@ I am using the following steps in my analysis:
 - K-Nearest Neighbors is a data classification method for estimating the likelihood that a data point will become a member of one group or another based on what group the data points nearest to it belong
 - Logistic Regression is a statistical model that uses a logistic function to model a binary-dependent variable
 - Decision Tree Classifier is a supervised learning algorithm. In this algorithm, data are continuously split into smaller parts until it reaches its class.
-- Support Vector Classification is a supervised machine learning model that uses classification algorithms for two-group classification problems. SVC works by mapping data points to a high-dimensional space and then finding the optimal hyperplane that divides the data into two classes
+- Support Vector Classification (SVC or SVM from Support Vector Machine) is a supervised machine learning model that uses classification algorithms for two-group classification problems. SVC works by mapping data points to a high-dimensional space and then finding the optimal hyperplane that divides the data into two classes
 
 5. Evaluate the models
 - the methods of evaluation are the score and ROC/AUC curve. ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds and shows two parameters: true positive rate and false positive rate. AUC is the area under the ROC curve and ranges in value from 0 to 1. The closer to 1 is AUC the better the classification model is.
