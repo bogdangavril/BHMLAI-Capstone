@@ -212,7 +212,7 @@ Here is the description of the dataset features:
 I am using the following steps in my analysis:
 
 1. Data understanding
-- analyzing the data and observe the nature of the features, such as numerical or categorical, the relation between the various features, the missing values; this step also includes observing the outliers and the quality of the data in general
+- analyze the data and observe the nature of the features, such as numerical or categorical, the relation between the various features, the missing values; this step also includes observing the outliers and the quality of the data in general
 
 2. Engineer the features
 - involves imputing missing values, scaling features, encoding categorical variables, removing outliers, etc.
@@ -231,17 +231,17 @@ I am using the following steps in my analysis:
 
 
 5. Evaluate the models
-- the method of evaluation is Median Absolute Error which is the median of all absolute differences between the target and the prediction
+- the method of evaluation is Median Absolute Error (MAE) which is the median of all absolute differences between the target and the prediction
 - the second method is the accuracy score of the model; the closer to 1 the score is, the better the model, but the accuracy needs to be evaluated in conjunction with the median absolute error. For applications where the accuracy is not critical, Median Absolute Error should be evaluated as the main criteria
 - use the test set and determine the median absolute error and the score for each model
 5. Use Grid Search to find the best parameters for these models.
-- Grid Search is a cross-validation technique for finding the optimal parameter values from a given set of parameters in a grid. Each of the regression models can accept a number of parameters which affect the performance. Grid Search finds these parameters to minimize the loss (MAE) and/or improve the score. 
+- Grid Search is a cross-validation technique for finding the optimal parameter values from a given set of parameters in a grid. Each of the regression models can accept a number of parameters which affect the performance. Grid Search finds these parameters to minimize the MAE and/or improve the score. 
 6. Tune the models using the best parameters
 - extract the best parameters from the grid search and tune the models
 7. Extract the feature importance from the best performing tuned model
 - this is a technique that calculates a score for all the input features and simply represents the importance of each feature. This way it can be determined which features contribute the most to the performance of the model.
 8. Choose the best model and use a dataset reduced to the most important features
-- this step is an attempt to retrain the best model on a reduced set of features extracted from the feature importance and analyze the score and the loss on the test set
+- this step is an attempt to retrain the best model on a reduced set of features extracted from the feature importance and analyze the score and the loss on the test set to determine the final model
 
 ### Results
 
