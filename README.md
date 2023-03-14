@@ -216,7 +216,7 @@ I am using the following steps in my analysis:
 3. Prepare the data for use in the models
 - involves creating the train and the test set by splitting the dataset; the models are trained on the train set and then used to make predictions using the test set
 
-4. Create and train several regression models using the train set.
+4. Create and train several regression models using the train set
 - Linear Regression, Ridge, Lasso, Transformed Target Regressor with Ridge, Transformed Target Regressor with Random Forest Regressor, Transformed Target Regressor with Lasso
 - Linear Regression is a model of the relationship between two variables, fit to a linear equation
 - Ridge regression is a method of estimating the coefficients of multiple-regression models in scenarios where the independent variables are highly correlated
@@ -230,7 +230,7 @@ I am using the following steps in my analysis:
 - the second method is the accuracy score of the model; the closer to 1 the score is, the better the model, but the accuracy needs to be evaluated in conjunction with the median absolute error. For applications where the accuracy is not critical, Median Absolute Error should be evaluated as the main criteria
 - use the test set and determine the median absolute error and the score for each model
 5. Use Grid Search to find the best parameters for these models.
-- Grid Search is a cross-validation technique for finding the optimal parameter values from a given set of parameters in a grid. Each of the regression models can accept a number of parameters which can improve the performance. Grid Search finds these parameters to minimize the loss (MAE) and/or improve the score. 
+- Grid Search is a cross-validation technique for finding the optimal parameter values from a given set of parameters in a grid. Each of the regression models can accept a number of parameters which affect the performance. Grid Search finds these parameters to minimize the loss (MAE) and/or improve the score. 
 6. Tune the models using the best parameters
 - extract the best parameters from the grid search and tune the models
 7. Extract the feature importance from the best performing tuned model
