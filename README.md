@@ -83,7 +83,7 @@ I am using the following steps in my analysis:
 1. The best two models are:
 #### DecisionTreeClassifier and SVC, with tuned parameters.
 
-#### Decision Tree Classifier, score = 0.77 and AUC = 0.76. 
+#### Decision Tree Classifier, score = 0.77 and AUC = 0.77. 
 Here are the confusion matrix and the ROC curve. Out of the 69 test samples the model classifies correctly 15 'Low' labels and 38 'High' labels and wrongly classifies 11 'Low and 5 'High' labels.
 
 ![conf matrix dtr](/images/cs_conf_roc_dtr.png)
@@ -143,7 +143,7 @@ The type of board influences the complexity
 - 'comp', 'scope', 'type', 'line', 'dbl' and 'category' have higher importance than others
 
 4. Is the model accurate enough? What is missing, how can I improve the data set and the analysis as next steps?
-- With an accuracy of 0.76 and AUC of 0.76 the model using Decision Tree Classifier is good, but there is room for improvement 
+- With an accuracy of 0.76 and AUC of 0.77 the model using Decision Tree Classifier is good, but there is room for improvement 
 - Same, with an accuracy of 0.69 and AUC of 0.77 the model using Support Vector Classifier is good, but there is room for improvement
 - The first thing missing is more data and some of the next steps are shown below
 - Overall, through this work, I can provide a reasonable model for classifying projects based on a given set of known characteristics
