@@ -150,7 +150,7 @@ The type of board influences the complexity
 
 ### Next steps
 
-What can be done to improve the models:
+What can be done to improve the models?
 - Identify and include additional features which can be collected before the project starts
 - Collect much more data
 - Explore all the available hyperparameters for each model and use larger ranges for the parameters values
@@ -301,7 +301,7 @@ Production boards take more time than the flex boards and platform boards
 
 ### Next steps
 
-What can be done to improve the models:
+What can be done to improve the models?
 - Identify and include additional features which can be collected before the project starts
 - Collect much more data
 - Explore all the available hyperparameters for each model and use larger ranges for the parameters values to be used in the Grid Search
